@@ -5,6 +5,7 @@ date: "2025-07-24"
 output: 
   html_document:
     keep_md: true
+    self_contained: true
 ---
 # Variables in tidydataset
 The cleaned dataset contains 69 variables and is saved in a text fixed width format.
