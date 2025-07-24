@@ -39,5 +39,6 @@ rm(list=ls()[ls()!="tt"]) #Remove data we are not going to use anymore
 TT=tt 
 TT=TT[,lapply(.SD,mean),by=.(ID,ACT,ACTnames)] #Applying mean to columns grouped by ID and activities
 
+
 #saving
-write.table(TT,"tidydataset.txt",sep="\t",row.names=FALSE)
+write.fwf(TT,file="tidydataset.txt",sep="\t") #in fixed widths for more order
