@@ -17,7 +17,7 @@ I've developed an R script called run_analysis.R has the function of cleaning an
 4. Uses descriptive activity names to name the activities in the dataset
 5. Appropriately labels the data set with descriptive variable names. 
 6. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-7. Saves the dataset to a fwf.
+7. Saves the dataset using write.table().
 
 ## Files in this repository
 1. run_analysis.R: R code that cleans the dataset provided
