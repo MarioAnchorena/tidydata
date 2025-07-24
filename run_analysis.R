@@ -40,4 +40,4 @@ TT=tt
 TT=TT[,lapply(.SD,mean),by=.(ID,ACT,ACTnames)] #Applying mean to columns grouped by ID and activities
 
 #saving
-write.table(TT,file="tidydataset.txt",sep="\t") 
+write.table(TT,file="tidydataset.txt",sep="\t",row.names = F) 
